@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+    
+    background: url(pinki.jpg);
+    background-size: cover;
+height: 100vh;
+width: 100%;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: o; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+    line-height: 1.5;
+
+
+}
+
+html{
+font-size: 62.5%;
+overflow-x: hidden;
+scroll-behavior: smooth;
+
+}
+body{
+
+    background: #fcf2e8 opacity 0.4;
+padding-left: 30rem;
+
+}
+
+header{
+position: fixed;
+top: 0; left:0; bottom:0;
+background: #222;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 1000;
+flex-flow: column;
+padding: 8rem 2rem;
+width: 30rem;
+text-align: center;
+}
+
+header .logo{
+text-transform: uppercase;
+color: #e38528;
+font-size: 3rem;
+font-weight: bolder;
+
+
+
+}
+
+
+header .logo span {
+    text-transform: uppercase;
+    color:#e38528 ;
+
+
+}
+.hiii{
+    font-size:30px;
+
+
+}
+
+header .navbar a{
+display: block;
+font-size: 2rem;
+color:#fff;
+margin: 2rem 0;
+
+
+}
+
+header .navbar a:hover{
+letter-spacing: .2rem;
+color:var(--main-color)
+
+
+}
+
+.icon{
+    
+    font-size:30px;
+    justify-content: space-around;
+    cursor: pointer;  
+    align-items: center;
+    color: #e38528;
+}
+
+
+.icon a:hover{
+    letter-spacing: .2rem;
+    color:var(--main-color)
+}
+
+
+#menu-bars{
+position: fixed;
+top: 1rem; right: 1rem;
+z-index: 10000;
+background:var(--main-color);
+color:#fff;
+border-radius: .5rem;
+padding: 1.5rem;
+font-size: 3rem;
+cursor: pointer;
+display: none;
+
+}
+
+
+.home{
+
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+gap: 1.5rem;
+
+
+
+}
+
+.ore{
+font-size: 15px;
+padding-top: 120px;
+padding-left: 30px;
+position: relative;
+width: 1200px;
+height: auto;
+margin: auto;
+color:#222;
+letter-spacing: 1.2px;
+line-height: 30px;
+
+}
+
+.hi{
+
+font-size: 50px;
+
+}
+
+.h1{
+
+font-size: 40px;
+margin-top: -10px;
+
+}
+
+.info{
+    font-size: 30px;
+margin-top: -50px;
+
+}
+
+.new{
+    font-size: 55px;
+    color: #e38528;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #222;
+}
+
+
+
+.btn{
+    background-color:#e38528;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    
+
+}
